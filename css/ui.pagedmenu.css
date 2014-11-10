@@ -1,4 +1,4 @@
-ï»¿/*!
+/*!
 * jQuery ui pagedmenu 
 * 
 * version 1.0 2014-03-03
@@ -8,6 +8,8 @@
 	position: relative;
 	overflow: hidden;
 	color: white;
+	height: 72px;
+    background-color:#ce1a22;
 }
 
 .ui-pagedmenu-pager-bar {
@@ -17,7 +19,7 @@
 	height: 100%;
 	color: white;
 	line-height: 68px;
-	font-family: é»‘ä½“;
+	font-family: ºÚÌå;
 	font-size: 30px;
 	cursor: pointer;
 	text-align: center;
@@ -76,7 +78,7 @@
 	padding-left: 39px;
 	padding-right: 12px;
 	font-size: 13px;
-	font-family: å¾®è½¯é›…é»‘;
+	font-family: Î¢ÈíÑÅºÚ;
 	font-weight: bold;
 	line-height: 68px;
 	cursor: default;

@@ -1,0 +1,63 @@
+html{}
+body{
+	margin:0px;
+}
+.main-doc-icon {
+    background-image: url("images/icon_main_doc.png");
+    background-repeat: no-repeat;
+    background-position: 12px 23px;
+}
+
+.doc-icon {
+    background-image: url("images/icon_doc.png");
+    background-repeat: no-repeat;
+    background-position: 12px 23px;
+}
+
+.contrast-icon {
+    background-image: url("images/icon_contrast.png");
+    background-repeat: no-repeat;
+    background-position: 12px 23px;
+}
+
+.report-to-icon {
+    background-image: url("images/icon_report_to.png");
+    background-repeat: no-repeat;
+    background-position: 12px 24px;
+}
+
+.pay-icon {
+    background-image: url("images/icon_pay.png");
+    background-repeat: no-repeat;
+    background-position: 12px 23px;
+}
+
+.sign-icon {
+    background-image: url("images/icon_sign.png");
+    background-repeat: no-repeat;
+    background-position: 12px 23px;
+}
+
+.report-icon {
+    background-image: url("images/icon_report.png");
+    background-repeat: no-repeat;
+    background-position: 12px 23px;
+}
+
+.legal-icon {
+    background-image: url("images/icon_legal.png");
+    background-repeat: no-repeat;
+    background-position: 12px 23px;
+}
+
+.history-icon {
+    background-image: url("images/icon_history.png");
+    background-repeat: no-repeat;
+    background-position: 12px 23px;
+}
+
+.setting-icon {
+    background-image: url("images/icon_setting.png");
+    background-repeat: no-repeat;
+    background-position: 12px 23px;
+}

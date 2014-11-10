@@ -1,0 +1,31 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PagedMenu</title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/ui.custom.js"></script>
+<script type="text/javascript" src="../js/ui.pagedmenu.js"></script>
+<link href="../css/ui.pagedmenu.css" rel="stylesheet" />
+<link href="css/demo.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="ui-pagedmenu-panel">
+		<div class="ui-pagedmenu-content"></div>
+		<div class="ui-pagedmenu-pager">
+			<div class="ui-pagedmenu-pager-bar">&lt;</div>
+			<div class="ui-pagedmenu-pager-bar">&gt;</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+$("body").ready(function(){
+	$(".ui-pagedmenu-panel").pagedmenu({
+		change : function(a, it) {
+			var data = $(it).data();
+			console.log(data.url);
+		},
+		 sourceUrl: "menus.json"
+	});
+});
+</script>
+</body>
+</html>

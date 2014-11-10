@@ -133,9 +133,9 @@
                 currentPage = 0,
                 pagerAry = [];
 
-            if (this._oldWidth === allWidth) {
-                return;
-            }
+//            if (this._oldWidth === allWidth) {
+//                return;
+//            }
             this._oldWidth = allWidth;
             if (allWidth < contentWidth) {
                 isPager = true;
@@ -199,7 +199,7 @@
                 this.menuItems.each(function (index, item) {
                     item.style.visibility = "visible";
                 });
-                $cEle.animate({ "left": 0 });
+                $cEle.animate({ "left": 0 },300);
                 return;
             }
             var pageData = pagerAry[currentIndex];
@@ -214,9 +214,9 @@
                 if (needHideObj) {
                     needHideObj.css("visibility", "hidden");
                 }
-                $cEle.animate({ "left": -pageData[0].data("al") });
+                $cEle.animate({ "left": -pageData[0].data("al") },300);
             } else {
-                $cEle.animate({ "left": -pageData[0].data("al") }, function () {
+                $cEle.animate({ "left": -pageData[0].data("al") },300, function () {
                     if (needHideObj) {
                         needHideObj.css("visibility", "hidden");
                     }

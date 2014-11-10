@@ -1,0 +1,255 @@
+﻿{ "success":true,
+    "response":[
+        {
+            "title":"主档信息",
+            "cls":"main-doc-icon",
+            "code":"mainDoc",
+            "menus":[
+                {
+                    "title":"税种",
+                    "cls":"",
+                    "code":"mainDoc-sz",
+                    "url":"pages/sz.html",
+                    "menus":[
+                        {
+                            "title":"营业税",
+                            "cls":"",
+                            "code":"mainDoc-yys",
+                            "url":"pages/yys.html",
+                            "menus":[
+                                
+                            ]
+                        },
+                        {
+                            "title":"印花税",
+                            "cls":"",
+                            "code":"mainDoc-yhs",
+                            "url":"pages/yhs.html",
+                            "menus":[
+                                
+                            ]
+                        },
+                        {
+                            "title":"增值税",
+                            "cls":"",
+                            "code":"mainDoc-zzs",
+                            "url":"pages/zzs.html",
+                            "menus":[
+                                
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title":"应税业务类型",
+                    "cls":"fa fa-edit",
+                    "code":"ysywlx",
+                    "url":"pages/ysywlx.html",
+                    "menus":[
+                        
+                    ]
+                },
+                {
+                    "title":"申报表业务类型",
+                    "cls":"fa fa-edit",
+                    "code":"sbbywlx",
+                    "url":"masterdata/taxReturnBizType.do",
+                    "menus":[
+                        
+                    ]
+                },
+                {
+                    "title":"品牌",
+                    "cls":"",
+                    "code":"pinpai",
+                    "url":"masterdata/brand.do",
+                    "menus":[
+                        
+                    ]
+                },
+                {
+                    "title":"财务市场",
+                    "cls":"",
+                    "code":"caiwushicang",
+                    "url":"masterdata/financeMKT.do",
+                    "menus":[
+                        
+                    ]
+                },
+                {
+                    "title":"行政区域",
+                    "cls":"",
+                    "code":"xzqy",
+                    "url":"pages/xingzhengquyu.html",
+                    "menus":[
+                        
+                    ]
+                },
+                {
+                    "title":"会计科目",
+                    "cls":"",
+                    "code":"kjkm",
+                    "url":"masterdata/account.do",
+                    "menus":[
+                        
+                    ]
+                },
+                {
+                    "title":"税务局",
+                    "cls":"",
+                    "code":"swj",
+                    "url":"masterdata/taxBU.do",
+                    "menus":[
+                        
+                    ]
+                },
+                {
+                    "title":"账期配置",
+                    "cls":"",
+                    "code":"zqpz",
+                    "url":"pages/pick.html",
+                    "menus":[
+                        
+                    ]
+                }
+            ]
+        },
+        {
+            "title":"差异分析模块",
+            "cls":"contrast-icon",
+            "code":"contrast",
+            "menus":[
+                
+            ],
+            "url":"pages/dxc.html"
+        },
+        {
+            "title":"申报模块",
+            "cls":"report-to-icon",
+            "code":"reportTo",
+            "menus":[
+                
+            ]
+        },
+        {
+            "title":"支付跟踪",
+            "cls":"pay-icon",
+            "code":"pay",
+            "menus":[
+                
+            ]
+        },
+        {
+            "title":"汇签模块",
+            "cls":"sign-icon",
+            "code":"sign",
+            "menus":[
+                
+            ]
+        },
+        {
+            "title":"报表",
+            "cls":"report-icon",
+            "code":"report",
+            "menus":[
+                
+            ]
+        },
+        {
+            "title":"政策法规",
+            "cls":"legal-icon",
+            "code":"legal",
+            "menus":[
+                
+            ]
+        },
+        {
+            "title":"历史申报查询",
+            "cls":"history-icon",
+            "code":"history",
+            "menus":[
+                
+            ]
+        },
+        {
+            "title":"文档管理",
+            "cls":"doc-icon",
+            "code":"doc",
+            "menus":[
+                
+            ]
+        },
+        {
+            "title":"系统设置",
+            "cls":"setting-icon",
+            "code":"setting",
+            "menus":[
+                {
+                    "title":"用户管理",
+                    "cls":"",
+                    "code":"mainDoc-yys",
+                    "url":"platform/user.do",
+                    "menus":[
+                        
+                    ]
+                },
+                {
+                    "title":"角色管理",
+                    "cls":"",
+                    "code":"mainDoc-yys",
+                    "url":"platform/role.do",
+                    "menus":[
+                        
+                    ]
+                },
+                {
+                    "title":"组织机构管理",
+                    "cls":"",
+                    "code":"mainDoc-yys",
+                    "url":"platform/organization.do",
+                    "menus":[
+                        
+                    ]
+                },
+                {
+                    "title":"用户组管理",
+                    "cls":"",
+                    "code":"mainDoc-yys",
+                    "url":"platform/userGroup.do",
+                    "menus":[
+                        
+                    ]
+                },
+                {
+                    "title":"菜单管理",
+                    "cls":"",
+                    "code":"mainDoc-yys",
+                    "url":"platform/menu.do",
+                    "menus":[
+                        
+                    ]
+                },
+                {
+                    "title":"业务日志查询",
+                    "cls":"",
+                    "code":"mainDoc-yys",
+                    "url":"platform/businessLog.do",
+                    "menus":[
+                        
+                    ]
+                },
+                {
+                    "title":"系统日志查询",
+                    "cls":"",
+                    "code":"mainDoc-yys",
+                    "url":"platform/systemLog.do",
+                    "menus":[
+                        
+                    ]
+                }
+            ]
+        }
+    ],
+    "message":"",
+    "total":10
+}
